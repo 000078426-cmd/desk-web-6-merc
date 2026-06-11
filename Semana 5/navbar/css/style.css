@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    background-color: #f4eee8;
+
+}
+
+header{
+   text-align: center;
+   color:white;
+   padding: 1px;
+   background-color: #381d05;
+}
+
+main{
+    width: 90%;
+    /* margin: 0 auto; */
+    background-color: #ffffff;
+    max-width: 1000px;
+   /* text-align: center; */
+
+}
+
+
+.caja{
+    background-color: #ffff;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: #151414 5px solid;
+}
+.presentacion{
+  padding: 30px;
+
+}   
+.imagen-cafe{
+     width: 300px;
+      height: auto; 
+      display: block;
+       margin: 0 auto; 
+    }
+
+footer{
+    background-color: #381d05;
+    color: white;
+    padding: 15 px;
+    }
+
+.flexbox-main{
+    display: flex;
+    gap: 20px;
+    text-align: right; 
+    padding: 20px;
+    background-color: rgb(255, 243, 130);
+}
+
+.flexbox-main-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(255, 202, 202, 0.76);
+}
+
+.contenedor {
+  display: flex; 
+  gap: 20px;    
+}
+
+
+.flexbox-main, .flexbox-main-2 {
+  background-color: #fae898;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.contenedor{
+    padding: 15px;
+    margin: 10px;
+}
+
+.menu{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.menu a{
+    background-color: #381d05;
+    color: white;
+    padding: 8px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: #f9c189;
+    color: rgb(124, 42, 218);
+    transition: 0.3s;
+}
+
+section{
+    margin: 50px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #381d05;
+    color: white;
+    padding: 8px 5px;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: #ab2bc2;
+    color: rgb(244, 243, 245);
+    transition: 0.3s;
+}
+
+.boton-secundario {
+    display: inline-block;
+    background-color: #381d05;
+    color: white;
+    padding: 8px 5px;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.boton-secundario:hover {
+    background-color: #ab2bc2;
+    color: rgb(244, 243, 245);
+    transition: 0.3s;
+}
+
+.boton-terciario {
+    display: inline-block;
+    background-color: #381d05;
+    color: white;
+    padding: 8px 5px;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.boton-terciario:hover {
+    background-color: #ab2bc2;
+    color: rgb(244, 243, 245);
+    transition: 0.3s;
+}

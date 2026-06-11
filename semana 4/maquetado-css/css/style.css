@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    background-color: #f4eee8;
+
+}
+
+header{
+   text-align: center;
+   color:white;
+   padding: 1px;
+   background-color: #381d05;
+}
+
+main{
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgba(242, 192, 106, 0.219);
+    text-align: center;
+}
+
+
+.caja{
+    background-color: #cd7727;
+    padding: 20px;
+    margin: 100px;
+    border: #151414 solid 1px;
+}
+
+.imagen-cafe{
+     width: 300px;
+      height: auto; 
+      display: block;
+       margin: 0 auto; 
+    }
