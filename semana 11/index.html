@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Café Aurora - Café artesanal para personas que buscan una pausa especial durante el día.">
+  <title>Cafe aurora, Cafe artesanal</title>
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="icon-aurora.png" type="image/png">
+</head>
+<body>
+
+  <header class="hero">
+    <nav>
+      <p class="logo">Café Aurora</p>
+      <a href="#contacto">Solicitar información</a>
+    </nav>
+
+    <section>
+      <h1>Café Aurora</h1>
+      <p>Café artesanal para personas que buscan una pausa especial durante el día.</p>
+      <a class="boton" href="#contacto">Resevar una visita</a>
+    </section>
+  </header>
+
+  <main>
+    <section class="seccion">
+      <h2>Beneficios</h2>
+      <img src="cafe.webp" alt="Taza de café">
+      <p>Tenemos bebidas artesanales, panadería fresca y un ambiente cómodo para trabajar o convivir.</p>
+    </section>
+
+    <section class="seccion" id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <input type="text" placeholder="Nombre">
+        <input type="email" placeholder="Correo">
+        <textarea placeholder="Mensaje"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+</body>
+</html>
+
+CSS base inicial
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.hero {
+  background: #f4e3d1;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.boton,
+button {
+  background: #d9b08c;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.seccion {
+  padding: 32px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+form {
+  display: grid;
+  gap: 12px;
+}
+
+input,
+textarea {
+  padding: 10px;
+}
